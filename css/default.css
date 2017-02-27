@@ -1,0 +1,96 @@
+/* All CSS styles go here */
+
+@font-face {
+	font-family: bodoni_custom;
+	src:url(../fonts/bodoni.ttc);
+}
+
+@font-face {
+	font-family: basic_custom;
+	src:url(../fonts/basictitlefont.ttf);
+}
+
+@font-face {
+	font-family: bodoni_xt_custom;
+	src:url(../fonts/bodonixt.ttf);
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+p,h2 {
+	text-align: center;
+}
+
+h2 {
+	font-family: bodoni_xt_custom;
+}
+
+#nemaalogo{
+	width:319.3px;
+	height: 54px;
+
+
+}
+
+#art{
+	width: 854px;
+	height: -1176px;
+	position: absolute;
+	left: 50%;
+	margin-top: 200px;
+	margin-bottom: 300px;
+	margin-left: -425px;
+
+}
+
+#main {
+	width: 100%;
+	height: 2000px;
+	background: white;
+}
+
+#content {
+	font-family: bodoni_custom;
+	width: 400px;
+	height: 2000px;
+	background: transparent;
+	position: absolute;
+	left: 50%;
+	margin-top: 500px;
+	margin-left: -200px;
+	border: 1px;
+
+}
+
+.mono {
+	font-family: basic_custom;;
+	font-size: 6em;
+	float: left;
+	margin-left: 5px;
+	margin-top: 300px;
+	width: 400px;
+	text-align: center;
+}
+
+#paint {
+	width: 400px;
+	height: 100%;
+	border: 1px;
+	position: absolute;
+	top: 0px;
+	left: 1200px;
+
+}
+
+
+.line{
+	width: 8px;
+	height: 1000px;
+	background-color: red;
+	border: red 10px;
+}
+
+
